@@ -15,19 +15,22 @@ export const addOrder = (dispatch, payload, navigate, select) => {
         payload.country = "Saudi Arabia";
         payload.phoneNumber = "+966" + payload.phoneNumber;
     }
+
+    payload.orderId = Math.floor(Math.random() * 1000000000);
     
     try {
-        dispatch(orderRequest());
-        axios.post(`${process.env.REACT_APP_API_URL}/order`, payload)
-        .then((res) => { 
-            dispatch(orderSuccess(res.data)); 
+        // dispatch(orderRequest())
+        // axios.post(`${process.env.REACT_APP_API_URL}/order`, payload)
+        // .then((res) => { 
+            console.log(payload)
+            dispatch(orderSuccess(payload)); 
             dispatch(clearCart());
-            navigate(`/success/${res.data._id}`, { state: { order: res.data } });
+            navigate(`/success/${payload.orderId}`, { state: { order: payload } });
             
-        })
-        .catch((err) => { dispatch(orderFail(err.response.data)); });
+        // })
+        // .catch((err) => { dispatch(orderFail(err.response.data)); });
     } catch (err) {
-        dispatch(orderFail(err.response.data));
+        dispatch(orderFail("failed to add order"));
     }
 };
 
