@@ -13,8 +13,7 @@ import {
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import { BsSun, BsMoon, BsCart } from "react-icons/bs";
 
-import logoBlue from "../assets/blueLogo/8.JPG";
-import logoMaroon from "../assets/maroonLogo/8.JPG";
+import logo from "../assets/logo/blackjack logo4.png";
 import CartDrawer from "./User/Cart/CartDrawer";
 import { useSelector } from "react-redux";
 
@@ -23,8 +22,8 @@ const links = [
   { name: "Products", href: "/products" },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
-  { name: "Admin", href: "/admin/login" },
-  { name: "Admin Items", href: "/admin/products" },
+  // { name: "Admin", href: "/admin/login" },
+  // { name: "Admin Items", href: "/admin/products" },
 ];
 
 export default function Header() {
@@ -68,9 +67,7 @@ export default function Header() {
 
         <Box>
           <Link to="/">
-            <img src={
-              colorMode === "light" ? logoMaroon : logoBlue
-              }
+            <img src={logo}
               alt="logo" width="250px" />
           </Link>
         </Box>

@@ -56,7 +56,6 @@ import {
     const iconColor = useColorModeValue("#c5597e", "#7cb3cf");
     const bg = useColorModeValue("pink.50", "gray.100");
     const borderColor = useColorModeValue("maroon.100", "blue.100");
-    // const bgGradient = useColorModeValue("linear(to-r, maroon.300, maroon.200, maroon.100, maroon.200)", "linear(to-r, blue.300, blue.200, blue.100, blue.200)");
 
     useEffect (() => {
       window.scrollTo(0, 0);

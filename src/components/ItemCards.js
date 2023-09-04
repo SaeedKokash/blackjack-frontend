@@ -39,12 +39,12 @@ export default function ItemCards() {
   const { isOpen: isOpenCart, onOpen: onOpenCart, onClose: onCloseCart } = useDisclosure();
 
   useEffect(() => {
-    getAdminItems(dispatch);
+    // getAdminItems(dispatch);
     window.scrollTo(0, 0);
     document.title = "Products | JackBlack Clothing";
   }, [dispatch]);
 
-  console.log(products[0])
+  // console.log(products[0])
 
   return (
     <Box p="0">

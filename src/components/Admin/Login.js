@@ -19,8 +19,8 @@ import { FaLock } from "react-icons/fa";
 import { TfiEmail } from "react-icons/tfi";
 import { useNavigate } from "react-router-dom";
 
-import blueLogo from "../../assets/blueLogo/6.JPG"
-import maroonLogo from "../../assets/maroonLogo/6.JPG"
+import blueLogo from "../../assets/logo/blackjack logo4.png";
+import maroonLogo from "../../assets/logo/blackjack logo4.png";
 
 
 import { useSelector, useDispatch } from "react-redux";

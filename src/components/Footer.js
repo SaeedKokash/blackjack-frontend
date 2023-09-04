@@ -1,10 +1,8 @@
-import { Box, Container, IconButton, Stack, Text, useColorMode, useColorModeValue } from "@chakra-ui/react";
+import { Box, Container, IconButton, Stack, Text, useColorModeValue } from "@chakra-ui/react";
 import { FaFacebookF, FaInstagram, FaWhatsapp } from "react-icons/fa";
-import blueLogo from "../assets/blueLogo/3.JPG";
-import maroonLogo from "../assets/maroonLogo/3.JPG";
+import logo from "../assets/logo/blackjack logo4.png";
 
 export default function Footer() {
-  const { colorMode } = useColorMode();
   const bgGradient = useColorModeValue("linear(to-r, maroon.300, maroon.200, maroon.100, maroon.200)", "linear(to-r, blue.300, blue.200, blue.100, blue.200)");
   const color = useColorModeValue("white.100", "white.100");
   
@@ -25,16 +23,12 @@ export default function Footer() {
         justify={{ base: "center", md: "space-between" }}
         align={{ base: "center", md: "center" }}
       >
-        <img src={
-          colorMode === "light" ? maroonLogo : blueLogo
-
-        } alt="footer-logo" width="300px" />
+        <img src={logo} alt="footer-logo" width="300px" />
         <Text>© 2023 JackBlack Clothing. All rights reserved</Text>
 
         <Stack direction={"row"} spacing={1}>
           <IconButton
-            as="a"
-            // href="https://www.facebook.com/tgroupjo"
+            href={"#"}
             target="_blank"
             rounded={"full"}
             color = {useColorModeValue("white.100", "white.100")}
@@ -47,8 +41,7 @@ export default function Footer() {
 
           <IconButton
             label={"WhatsApp"}
-            as="a"
-            // href="https://wa.me/962777737180"
+            href={"#"}
             target="_blank"
             rounded={"full"}
             color = {useColorModeValue("white.100", "white.100")}

@@ -22,7 +22,7 @@ export const addOrder = (dispatch, payload, navigate, select) => {
         // dispatch(orderRequest())
         // axios.post(`${process.env.REACT_APP_API_URL}/order`, payload)
         // .then((res) => { 
-            console.log(payload)
+            // console.log(payload)
             dispatch(orderSuccess(payload)); 
             dispatch(clearCart());
             navigate(`/success/${payload.orderId}`, { state: { order: payload } });

@@ -47,10 +47,10 @@ function App() {
 
         <Route exact path ="/product/:id" element={<ItemPage />} />
 
-        {token ? 
+        {/* {token ? 
         ( <Route exact path ="/admin/products" element={<Admin />} /> ) 
         : ( <Route exact path ="/admin/login" element={<Login />} /> )
-        }
+        } */}
 
       </Routes>
       <Footer />

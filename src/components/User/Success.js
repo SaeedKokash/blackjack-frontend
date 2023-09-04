@@ -25,6 +25,7 @@ export default function Success() {
 
   const dividerColor = useColorModeValue("maroon.100", "blue.100");
 
+
   useEffect(() => {
     document.title = "Order | JackBlack Clothing";
   }, []);
@@ -59,7 +60,7 @@ export default function Success() {
         <Stack gap={{ base: 5, md: 4 }} p={{ base: 4, md: 8 }}>
           <Stack direction={{ base: "column", md: "column" }} textAlign={{ base: "center", md: "left" }}>
             <Heading>Order details</Heading>
-            <Text fontSize="sm">Order ID: {order._id}</Text>
+            <Text fontSize="sm">Order ID: {order.orderId}</Text>
           </Stack>
 
           <Divider borderColor={dividerColor} />
@@ -90,13 +91,13 @@ export default function Success() {
             </Box>
           </Stack>
 
-          <Divider borderColor={dividerColor} />
+          {/* <Divider borderColor={dividerColor} /> */}
 
-          <Box w="100%">
+          {/* <Box w="100%">
             <Heading size="md">Items:</Heading>
 
-            <Box w="100%" overflow="auto">
-              <Table variant="simple" size="sm">
+            <Box w="100%" overflow="auto"> */}
+              {/* <Table variant="simple" size="sm">
                 <Thead>
                   <Tr>
                     <Th>#</Th>
@@ -106,9 +107,9 @@ export default function Success() {
                     <Th>Qty.</Th>
                     <Th>Total</Th>
                   </Tr>
-                </Thead>
-                {order.items.map((item, index) => (
-                  <Tbody key={item.itemId._id}>
+                </Thead> */}
+                {/* { order && order.items.map((item, index) => (
+                  <Tbody key={item.itemId}>
                     <Tr>
                       <Td w="5%">{index + 1}</Td>
                       <Td w="10%">
@@ -122,10 +123,10 @@ export default function Success() {
                       <Td w="15%">${item.itemId.price * item.quantity}</Td>
                     </Tr>
                   </Tbody>
-                ))}
-              </Table>
-            </Box>
-          </Box>
+                ))} */}
+              {/* </Table> */}
+            {/* </Box> */}
+          {/* </Box> */}
 
           <Divider borderColor={dividerColor} />
 
