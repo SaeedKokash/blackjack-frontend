@@ -25,6 +25,8 @@ import { getAdminItems } from "../store/actions/adminActions";
 
 import CartDrawer from "./User/Cart/CartDrawer";
 
+import products from "../assets/prdocuts.data";
+
 export default function ItemCards() {
   const { items } = useSelector((state) => state.admin);
   const dispatch = useDispatch();
@@ -39,8 +41,10 @@ export default function ItemCards() {
   useEffect(() => {
     getAdminItems(dispatch);
     window.scrollTo(0, 0);
-    document.title = "Products | Divine Therapy";
+    document.title = "Products | JackBlack Clothing";
   }, [dispatch]);
+
+  console.log(products[0])
 
   return (
     <Box p="0">
@@ -61,8 +65,8 @@ export default function ItemCards() {
       justify="center"
       py="3em"
       >
-        {items ? (
-          items.map((item) => (
+        {products ? (
+          products.map((item) => (
             <Card key={item._id}
               w={{ base: "45%", md: "300px" }}
               h={{ base: "100%", md: "500px" }}
@@ -75,7 +79,8 @@ export default function ItemCards() {
               }}
             >
 
-              <Link to={`/product/${item.title.replace(/\s+/g, "-").toLowerCase()}`}>
+              {/* <Link to={`/product/${item.title.replace(/\s+/g, "-").toLowerCase()}`}>*/}
+              <Link to={`/product/${item._id}`}>
                 <CardBody h="100%" >
                   <Image
                     src={item.images[0]}

@@ -60,7 +60,7 @@ import {
 
     useEffect (() => {
       window.scrollTo(0, 0);
-      document.title = "Contact Us | Divine Therapy";
+      document.title = "Contact Us | JackBlack Clothing";
     }, []);
   
     return (
@@ -106,7 +106,7 @@ import {
                           leftIcon={<MdEmail color={iconColor} size="20px" />}
                           colorScheme="none"
                         >
-                          info@divine-therapy.com
+                          info@jackblack-clothing.com
                         </Button>
                         <Button
                           size="md"

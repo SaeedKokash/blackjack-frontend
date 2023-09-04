@@ -29,7 +29,7 @@ export default function Footer() {
           colorMode === "light" ? maroonLogo : blueLogo
 
         } alt="footer-logo" width="300px" />
-        <Text>© 2023 Divine Therapy. All rights reserved</Text>
+        <Text>© 2023 JackBlack Clothing. All rights reserved</Text>
 
         <Stack direction={"row"} spacing={1}>
           <IconButton

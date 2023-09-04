@@ -39,7 +39,7 @@ function Cart() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Cart | Divine Therapy";
+    document.title = "Cart | JackBlack Clothing";
   }, []);
 
   return (

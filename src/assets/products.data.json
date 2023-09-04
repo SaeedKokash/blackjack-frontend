@@ -1,0 +1,76 @@
+[
+    {
+        "_id": "1",
+        "title": "T-shirt 1",
+        "description": "This is a t-shirt",
+        "price": 10,
+        "images": [
+            "./logo.png"
+         ],
+        "details": {
+            "specifications": {},
+            "list": []
+        },
+        "video": []
+    },
+    {
+        "_id": "2",
+        "title": "T-shirt 2",
+        "description": "This is a t-shirt",
+        "price": 20,
+        "images": [
+            "https://images.unsplash.com/photo-1593642532452-9d0a9f3b1b5b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHRzaGlydHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
+            "https://images.unsplash.com/photo-1593642532452-9d0a9f3b1b5b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHRzaGlydHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+        ],
+        "details": {
+            "specifications": {},
+            "list": []
+        },
+        "video": []
+    },
+    {
+        "_id": "3",
+        "title": "T-shirt 3",
+        "description": "This is a t-shirt",
+        "price": 30,
+        "images": [
+            "https://images.unsplash.com/photo-1593642532452-9d0a9f3b1b5b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHRzaGlydHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
+            "https://images.unsplash.com/photo-1593642532452-9d0a9f3b1b5b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHRzaGlydHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+        ],
+        "details": {
+            "specifications": {},
+            "list": []
+        },
+        "video": []
+    },
+    {
+        "_id": "4",
+        "title": "T-shirt 4",
+        "description": "This is a t-shirt",
+        "price": 40,
+        "images": [
+            "https://images.unsplash.com/photo-1593642532452-9d0a9f3b1b5b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHRzaGlydHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
+            "https://images.unsplash.com/photo-1593642532452-9d0a9f3b1b5b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHRzaGlydHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+        ],
+        "details": {
+            "specifications": {},
+            "list": []
+        },
+        "video": []
+    },
+    {
+        "_id": "5",
+        "title": "T-shirt 5",
+        "description": "This is a t-shirt",
+        "price": 50,
+        "images": [
+            "https://images.unsplash.com/photo-1593642532452-9d0a9f3b1b5b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHRzaGlydHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80",
+            "https://images.unsplash.com/photo-1593642532452-9d0a9f3b1b5b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dCUyMHRzaGlydHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80"
+        ],
+        "details": {
+            "specifications": {},
+            "list": []
+        },
+        "video": []
+    }
+]

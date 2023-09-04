@@ -142,7 +142,7 @@ export default function Checkout() {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    document.title = "Checkout | Divine Therapy";
+    document.title = "Checkout | JackBlack Clothing";
   }, []);
 
   return (

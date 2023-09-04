@@ -3,52 +3,64 @@ import { useEffect } from "react"
 
 function About() {
 
-    useEffect (() => {
-        document.title = "About Us | Divine Therapy";
+    useEffect(() => {
+        document.title = "About Us | JackBlack Clothing";
     }, []);
-    
+
     return (
-        <Container maxW={"7xl"} 
-                px={{ base: "4", md: "10em" }}
-                mx="2em"
-                m="auto"
-                >
-            <Heading my="1.5em">About Us</Heading>
+        <Container maxW={"7xl"}
+            px={{ base: "4", md: "10em" }}
+            mx="2em"
+            m="auto"
+        >
+            <Heading my="1.5em" align="center">About Us</Heading>
 
             <Box my="4.5em"
-            textColor={"gray.500"}
+                textColor={"gray.500"}
             >
+                <Text mt="-2em" mb="2em" align="center" fontWeight={"bold"} fontSize={"xl"}>Welcome to BlackJack Clothing, where urban fashion meets inclusivity.</Text>
 
-            <Text>
-                Welcome to our online store, where we specialize in providing high-quality massage devices that offer exceptional therapeutic benefits. We are passionate about bringing the latest innovations in the massage industry to our customers, ensuring that they have access to products that enhance their overall health and well-being.
-            </Text>
+                <Text>
+                    <Text fontSize={"2xl"} fontWeight={"bold"} >Our Story</Text>
+                    Born out of a passion for unique and trendy clothing, BlackJack Clothing began its journey on Instagram. With a significant following and an ever-growing community of fashion enthusiasts, we realized the need for a dedicated platform. A platform that not only showcases our collection but also resonates with our brand's essence.
+                </Text>
 
-            <br></br>
+                <br></br>
 
-            <Text>
-                At our online store, we understand that finding the right massage device can be overwhelming. That's why we have curated a collection of top-rated products that have been thoroughly researched and tested by our team of experts. We only offer products that we stand behind and believe in, ensuring that our customers receive the best possible value for their investment.
-            </Text>
+                <Text>
+                    <Text fontSize={"2xl"} fontWeight={"bold"} >Our Essence</Text>
+                    At BlackJack Clothing, we believe in celebrating individuality. Our collections are inspired by the vibrant streets of the city, capturing the spirit of urban life. Every piece is a reflection of contemporary style, designed for those who aren't afraid to make a statement.
+                </Text>
 
-            <br></br>
+                <br></br>
 
+                <Text>
+                    <Text fontSize={"2xl"} fontWeight={"bold"} >Inclusivity at its Core</Text>
+                    Fashion is for everyone. And we stand by this. Our range caters to diverse sizes, ensuring that everyone finds their perfect fit. We're more than just a clothing brand; we're a community that embraces and celebrates every individual's unique style.
+                </Text>
 
-            <Text>
-                We are committed to providing our customers with exceptional service and support. We believe that shopping for massage devices should be a stress-free experience, which is why we offer a 100% satisfaction guarantee on all of our products. If you are not completely satisfied with your purchase, we will work with you to find a solution that meets your needs.
-            </Text>
-
-            <br></br>
-
-
-            <Text>
-                We pride ourselves on providing a safe and secure shopping environment for our customers. Our website is protected with the latest encryption technology to ensure that your personal and financial information remains confidential. We also offer a variety of payment options to make your shopping experience as convenient as possible.
-            </Text>
-
-            <br></br>
+                <br></br>
 
 
-            <Text>
-                Thank you for choosing our online store for your massage device needs. We look forward to helping you enhance your health and well-being through the power of massage.
-            </Text>
+                <Text>
+                    <Text fontSize={"2xl"} fontWeight={"bold"} >Why Choose BlackJack Clothing?</Text>
+                    Trendy Collections: Our team is always on the lookout for the latest trends, ensuring you're always in vogue.
+                    Quality First: Every item is crafted with precision, ensuring durability and comfort.
+                    Exclusive Experience: With our new web platform, we aim to provide an exclusive and seamless shopping experience, bringing our brand closer to you.
+                </Text>
+
+                <br></br>
+
+                <Text>
+                    <Text fontSize={"2xl"} fontWeight={"bold"} >Join Our Journey</Text>
+                    We're more than just a brand; we're a movement. A movement that celebrates style, individuality, and inclusivity. Join us in our journey as we redefine urban fashion.
+                </Text>
+
+                <br></br>
+
+                <Text>
+                    For any inquiries or feedback, feel free to contact us.
+                </Text>
 
             </Box>
 

@@ -26,7 +26,7 @@ export default function Success() {
   const dividerColor = useColorModeValue("maroon.100", "blue.100");
 
   useEffect(() => {
-    document.title = "Order | Divine Therapy";
+    document.title = "Order | JackBlack Clothing";
   }, []);
 
   return (

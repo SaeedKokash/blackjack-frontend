@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { getAdminItems } from "../../../store/actions/adminActions";
 // import { ChevronLeftIcon, ChevronRightIcon } from "@chakra-ui/icons";
 import SliderCom from "./Carousel/SliderCom";
+import products from "../../../assets/prdocuts.data";
 
 function SuggestedItems() {
   const dispatch = useDispatch();
@@ -11,7 +12,7 @@ function SuggestedItems() {
   const { cart } = useSelector((state) => state.order);
 
   // filter out items in cart and keep the rest in remainingItems
-  const remainingItems = items.filter((item) => {
+  const remainingItems = products.filter((item) => {
     return !cart.find((cartItem) => cartItem._id === item._id);
   });
 

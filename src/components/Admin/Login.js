@@ -46,7 +46,7 @@ function Login() {
   };
 
   useEffect(() => {
-    document.title = 'Login | Divine Therapy'
+    document.title = 'Login | JackBlack Clothing'
   }, [])
 
   return (

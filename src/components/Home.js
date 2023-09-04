@@ -14,7 +14,7 @@ function Home() {
 
   useEffect(() => {
     getAdminItems(dispatch)
-    document.title = "Home | Divine Therapy"
+    document.title = "Home | JackBlack Clothing"
   }, [dispatch])
 
   return (

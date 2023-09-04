@@ -13,7 +13,7 @@ function Admin() {
 
   useEffect(() => {
     getAdminItems(dispatch)
-    document.title = 'Admin | Divine Therapy'
+    document.title = 'Admin | JackBlack Clothing'
   }, [dispatch])
 
   return (

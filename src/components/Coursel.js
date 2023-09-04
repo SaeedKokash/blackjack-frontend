@@ -14,7 +14,10 @@ import Slider from 'react-slick';
 // import { useSelector } from 'react-redux';
 
 // import all the images from the assets folder and put them in an array
-const assetsImages = require.context('../assets/blueLogo', true, /.JPG$/);
+// const assetsImages = require.context('../assets/blueLogo', true, /.JPG$/);
+
+const assetsImages = require.context('../assets/products/product02', true, /.jpg$/);
+
 
 // Settings for the slider
 const settings = {
